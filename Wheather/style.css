@@ -1,0 +1,96 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container {
+    padding: 20px;
+    margin: 50px;
+    background-color:whitesmoke;
+    width: 350px;
+    height: 500px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#images {
+    width: 80px;
+    cursor: pointer;
+}
+h1 {
+    font-style: italic;
+    font-size: 20px;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+}
+#text {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: italic;
+    min-width: 150px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    top: auto;
+    opacity: 0.6;
+    margin-top: auto;
+}
+#weatherImage img {
+    padding: 5px;
+    width: 170px;
+}
+#details {
+    margin: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+#humidity, #sealevel, #windSpeed {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+}
+
+#humidity {
+    margin: 0 10px; 
+}
+
+#sealevel {
+    margin: 0 10px; 
+}
+
+#windSpeed {
+    margin: 0 10px; 
+}
+
+#temp {
+    margin: 10px 0 0 0;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}
+#result {
+    margin: -40px
+}
